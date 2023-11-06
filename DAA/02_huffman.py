@@ -1,3 +1,6 @@
+"""Write a program to implement Huffman Encoding using a greedystrategy."""
+
+
 import heapq
 
 class node:

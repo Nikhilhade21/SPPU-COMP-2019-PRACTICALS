@@ -1,3 +1,6 @@
+""": Design n-Queens matrix having first Queen placed. Use backtracking to 
+place remaining Queens to generate the final n-queen’s matrix."""
+
 def solveNQueens(n: int, first_queen_col: int):
     col = set()
     posDiag = set()

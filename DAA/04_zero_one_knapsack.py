@@ -1,3 +1,7 @@
+""""Write a program to solve a 0-1 Knapsack problem using dynamic 
+programming or branch and bound strategy.
+"""
+
 def knapsack_01(n, values, weights, W):
     dp = [[0] * (W+1) for _ in range(n+1)]
 
