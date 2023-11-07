@@ -33,3 +33,5 @@ if __name__ == "__main__":
     max_value, selected_items = knapsack_01(n, values, weights, W)
     print("Maximum value:", max_value)
     print("Selected items:", selected_items)
+
+
